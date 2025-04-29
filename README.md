@@ -16,10 +16,10 @@ The Automated systems relying on CV often face inaccuracies due to shadows and e
 Each dataset contains multiple videos, which were converted to image frames for processing and analysis.
 
 **Models**
-*Grayscale Conversion: Converts colored frames to grayscale to simplify feature detection and reduce noise.
-*Noise Reduction: Applies dehazing and filtering techniques to enhance image clarity and highlight object boundaries.
-*Shadow Detection: Uses HSV thresholding and morphological operations to isolate shadow regions from frames.
-*n-SAC Classification: Tracks changes in inclination angles across frames to differentiate real objects from shadows based on motion consistency.
+* Grayscale Conversion: Converts colored frames to grayscale to simplify feature detection and reduce noise.
+* Noise Reduction: Applies dehazing and filtering techniques to enhance image clarity and highlight object boundaries.
+* Shadow Detection: Uses HSV thresholding and morphological operations to isolate shadow regions from frames.
+* n-SAC Classification: Tracks changes in inclination angles across frames to differentiate real objects from shadows based on motion consistency.
 
 **Results**
 The proposed system effectively detected and filtered complex shadow patterns, improving classification accuracy under varied lighting conditions. It demonstrated reliable performance across synthetic and real-world datasets, reducing false positives and correctly identifying shadow-only scenarios.
